@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.containor{
+    margin:50px auto;
+    width:800px;
+    border:4px solid black;
+    background-image: url( https://img.freepik.com/premium-psd/white-shoe-psd-white-background_670382-333547.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    text-transform:uppercase;
+    font-size:16px;
+    padding:10px ;
+    background-color: rgb(247, 232, 244);
+    font-family:sans-serif ;
+}
+.price,.shipping,.ready,a,h2,ul{
+    font-family:sans-serif;
+    margin-top:15px;
+}
+h1,h2{
+    color:rgb(60, 56, 56);
+}
+body{
+    position:relative;
+}
+a{
+    position:absolute;
+}
+h2{
+    margin-top:50px;
+}
+ul{
+    margin-left: 30px;
+    list-style: square;
+    margin-bottom:10px;
+    margin-top:25px;
+}
+.list{
+    margin-top:10px;
+}
+img{
+    height: 250px;
+    width: auto;
+    margin-top: 13px;
+}
+.price{
+    font-weight:bold ;
+    font-size:20px
+}
+.shipping{
+    text-transform: uppercase;
+    font-size:13px;
+}
+a:link{
+    color:black;
+    font-weight:bold;
+    text-transform: capitalize;
+}
+a:visited{
+    color:black;
+    font-style: italic;
+}
+a:hover{
+    color:rgb(87, 87, 248);
+    font-style:italic;
+    text-decoration: underline dotted black;
+}
+a:active{
+    background-color: black;
+    color:aliceblue;
+}
+button{
+    text-align: center;
+    text-transform:uppercase;
+    font-weight: bold;
+    width: 800px;
+    padding:10px;
+    color: white;
+    background-color: black;
+    cursor:pointer;
+}
+button:hover{
+    background-color:white;
+    color: black;
+    border-top:4px solid black;
+}
+ 
+.ready::first-letter{
+    text-transform: uppercase;
+    
+}
+.list::first-letter{
+    text-transform: uppercase;
+    
+}
